@@ -1,0 +1,19 @@
+.category-list-container {
+    padding: 20px;
+  }
+  
+  ul {
+    list-style-type: none;
+  }
+  
+  ul li {
+    padding: 10px 0;
+  }
+  
+  .category-form-container {
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+  }
+  

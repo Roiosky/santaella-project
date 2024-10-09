@@ -1,0 +1,65 @@
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; 
+  background: linear-gradient(to right, #fdd7d4, #f9a4c7); 
+  padding: 0 20px; 
+}
+
+.login-form, .register-form {
+  background: white; 
+  padding: 2rem; 
+  border-radius: 15px; 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  width: 100%; 
+  max-width: 400px; 
+  text-align: center; 
+}
+
+h2 {
+  margin-bottom: 1.5rem; 
+  color: #333;
+  font-family: sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 18px 0px 18px 5px;
+  margin: 0.5rem 0;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  font-size: 1rem;
+}
+
+button {
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 10px;
+  background-color: #f9a4c7;
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #e274a2;
+}
+
+.auth-container form {
+  animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
