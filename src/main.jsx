@@ -12,19 +12,19 @@ createRoot(document.getElementById('root')).render(
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
         <Route path="/dashboard" element={<Dashboard />} />
-        <Route path="/register" element={<CategoryForm />} />
-        <Route path="/register" element={<CategoryList />} />
-        <Route path="/register" element={<ProductDetail />} />
-        <Route path="/register" element={<ProductForm />} />
-        <Route path="/register" element={<ProductList />} />
-        <Route path="/register" element={<SalesReport />} />
-        <Route path="/register" element={<StockReport />} />
-        <Route path="/register" element={<StockForm />} />
-        <Route path="/register" element={<StockList />} />
-        <Route path="/register" element={<TransactionDetail />} />
-        <Route path="/register" element={<TransactionList />} />
-        <Route path="/register" element={<RoleManagement />} />
-        <Route path="/register" element={<UserList />} />
+        <Route path="/CategoryForm" element={<CategoryForm />} />
+        <Route path="/CategoryList" element={<CategoryList />} />
+        <Route path="/ProductDetail" element={<ProductDetail />} />
+        <Route path="/ProductForm" element={<ProductForm />} />
+        <Route path="/ProductList" element={<ProductList />} />
+        <Route path="/SalesReport" element={<SalesReport />} />
+        <Route path="/StockReport" element={<StockReport />} />
+        <Route path="/StockForm" element={<StockForm />} />
+        <Route path="/StockList" element={<StockList />} />
+        <Route path="/TransactionDetail" element={<TransactionDetail />} />
+        <Route path="/TransactionList" element={<TransactionList />} />
+        <Route path="/RoleManagement" element={<RoleManagement />} />
+        <Route path="/UserList" element={<UserList />} />
       </Routes>
     </Router>
   </StrictMode>
