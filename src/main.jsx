@@ -11,7 +11,20 @@ createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path="/" element={<Login />} />
         <Route path="/register" element={<Register />} />
-        <Route path="/dashboard" element={<Dashboard />} /> {/* Nueva ruta para el Dashboard */}
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/register" element={<CategoryForm />} />
+        <Route path="/register" element={<CategoryList />} />
+        <Route path="/register" element={<ProductDetail />} />
+        <Route path="/register" element={<ProductForm />} />
+        <Route path="/register" element={<ProductList />} />
+        <Route path="/register" element={<SalesReport />} />
+        <Route path="/register" element={<StockReport />} />
+        <Route path="/register" element={<StockForm />} />
+        <Route path="/register" element={<StockList />} />
+        <Route path="/register" element={<TransactionDetail />} />
+        <Route path="/register" element={<TransactionList />} />
+        <Route path="/register" element={<RoleManagement />} />
+        <Route path="/register" element={<UserList />} />
       </Routes>
     </Router>
   </StrictMode>
