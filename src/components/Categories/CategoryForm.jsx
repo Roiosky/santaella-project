@@ -1,4 +1,4 @@
-import './Categories.css';
+import '../../Styles/Categories.css';
 
 const CategoryForm = () => {
   return (

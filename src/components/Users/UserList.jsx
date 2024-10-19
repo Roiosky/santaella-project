@@ -1,4 +1,4 @@
-import './Users.css';
+import '../../Styles/Users.css';
 
 const UserList = () => {
   return (

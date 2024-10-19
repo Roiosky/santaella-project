@@ -1,4 +1,4 @@
-import './Transactions.css';
+import '../../Styles/Transactions.css';
 
 const TransactionList = () => {
   return (

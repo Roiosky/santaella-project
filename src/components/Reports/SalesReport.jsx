@@ -1,4 +1,4 @@
-import './Reports.css';
+import '../../Styles/Reports.css';
 
 const SalesReport = () => {
   return (

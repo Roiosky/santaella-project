@@ -1,4 +1,4 @@
-import './Stock.css';
+import '../../Styles/Stock.css';
 
 const StockList = () => {
   return (
